@@ -14,7 +14,7 @@
   "js_datapoint_mutator": "d => {\n return {\n ...d,\n color: colors.hexToRGB(d.extraProps.color),\n }\n}",
   "js_onclick_href": "",
   "js_tooltip": "",
-  "mapbox_style": "mapbox://styles/mapbox/light-v9",
+  "mapbox_style": "http://ARG_TILESERVER_ROOT_URL/styles/osm-bright/style.json",
   "reverse_long_lat": false,
   "row_limit": 5000,
   "since": "7 days ago",

@@ -1597,14 +1597,13 @@ export const controls = {
     clearable: false,
     renderTrigger: true,
     choices: [
-      ['mapbox://styles/mapbox/streets-v9', 'Streets'],
-      ['mapbox://styles/mapbox/dark-v9', 'Dark'],
-      ['mapbox://styles/mapbox/light-v9', 'Light'],
-      ['mapbox://styles/mapbox/satellite-streets-v9', 'Satellite Streets'],
-      ['mapbox://styles/mapbox/satellite-v9', 'Satellite'],
-      ['mapbox://styles/mapbox/outdoors-v9', 'Outdoors'],
+        [ 'http://ARG_TILESERVER_ROOT_URL/styles/dark_matter/style.json', 'DarkMatter' ],
+        [ 'http://ARG_TILESERVER_ROOT_URL/styles/fiord-color/style.json', 'FiordColor' ],
+        [ 'http://ARG_TILESERVER_ROOT_URL/styles/klokantech-basic/style.json', 'KlokantechBasic' ],
+        [ 'http://ARG_TILESERVER_ROOT_URL/styles/osm-bright/style.json', 'OSMBright' ],
+        [ 'http://ARG_TILESERVER_ROOT_URL/styles/positron/style.json', 'Positron' ]
     ],
-    default: 'mapbox://styles/mapbox/light-v9',
+    default: 'http://ARG_TILESERVER_ROOT_URL/styles/osm-bright/style.json',
     description: t('Base layer map style'),
   },
 

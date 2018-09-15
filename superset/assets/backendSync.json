@@ -2350,31 +2350,27 @@
       "renderTrigger": true,
       "choices": [
         [
-          "mapbox://styles/mapbox/streets-v9",
-          "Streets"
+          "http://ARG_TILESERVER_ROOT_URL/styles/dark_matter/style.json",
+          "DarkMatter"
         ],
         [
-          "mapbox://styles/mapbox/dark-v9",
-          "Dark"
+          "http://ARG_TILESERVER_ROOT_URL/styles/fiord-color/style.json",
+          "FiordColor"
         ],
         [
-          "mapbox://styles/mapbox/light-v9",
-          "Light"
+          "http://ARG_TILESERVER_ROOT_URL/styles/klokantech-basic/style.json",
+          "KlokantechBasic"
         ],
         [
-          "mapbox://styles/mapbox/satellite-streets-v9",
-          "Satellite Streets"
+          "http://ARG_TILESERVER_ROOT_URL/styles/osm-bright/style.json",
+          "OSMBright"
         ],
         [
-          "mapbox://styles/mapbox/satellite-v9",
-          "Satellite"
-        ],
-        [
-          "mapbox://styles/mapbox/outdoors-v9",
-          "Outdoors"
+          "http://ARG_TILESERVER_ROOT_URL/styles/positron/style.json",
+          "Positron"
         ]
       ],
-      "default": "mapbox://styles/mapbox/streets-v9",
+      "default": "http://ARG_TILESERVER_ROOT_URL/styles/osm-bright/style.json",
       "description": "Base layer map style"
     },
     "clustering_radius": {
